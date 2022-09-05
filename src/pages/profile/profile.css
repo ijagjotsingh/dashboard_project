@@ -1,0 +1,99 @@
+.profile{
+    display: flex;
+}
+
+.profileContainer{
+    flex: 6;
+}
+
+.profileMain,.profileArea{
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+   
+}
+.profileMain{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profileArea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profileAreaTop{
+    width: 25vw
+}
+
+.profileAreaTop,.profileAreaTopDetail{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color:#41b3a3;
+}
+.profileAreaTop{
+    border-bottom: 0.5px solid rgb(233, 232, 232);
+    justify-content: space-between;
+    
+}
+
+.profileAreaTopDetail{
+    justify-content: space-between;
+    gap: 20px;
+}
+.userImage,.userProfileName,.edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userImage,.userProfileName{
+    flex: 1;
+}
+.edit{
+    cursor: pointer;
+}
+.profileAreaTopTitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.profileAreaMiddleDetail input{
+    border: 1px solid #41b3a3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px ;
+    padding: 5px;
+}
+
+.editDesign{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    
+}
+
+.editDesign input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    font-size: 16px;
+    border-bottom: 0.5px solid #41b3a3;
+}
+.editDesign label{
+    font-size: 16px;
+}
+
+.bb input{
+    border: 0.5px solid #41b3a3;
+}

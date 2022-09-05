@@ -1,0 +1,89 @@
+.navbar{
+    height: 10vh;
+    border-bottom: 0.5px solid rgb(233, 232, 232);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.wrapper{ 
+    width: 100%;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    padding: 7px;
+}
+
+.search input{
+    width: 30vw;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+ color: #41b3a3;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ margin-left: 25px;
+ position: relative;
+}
+
+.counter{
+    font-size: 12px;
+    color: white;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #41b3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.arrow{
+    color: white;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #41b3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;    
+}
+
+.designAdmin{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #41b3a3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.designAdmin:hover{
+    background-color: #41b3a3;
+    color:white;
+}

@@ -1,0 +1,102 @@
+.sidebar{
+    flex: 1;
+    height: 100vh;
+    border-right: 0.5px solid rgb(233, 232, 232);
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+}
+
+.top{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid rgb(233, 232, 232);
+}
+
+.logo{
+    color: #41b3a3;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.center{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+ li:hover{
+    background-color: #41b3a433;
+    border-radius: 5px;
+ }
+
+ .icon{
+    color: #41b3a3;
+ }
+
+ .center span{
+    margin-left: 10px;
+    color: black;
+ }
+
+ .bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 0.5px solid rgb(233, 232, 232);
+    gap: 5px;
+ }
+
+ .bottomheading{
+    padding: 5px;
+    margin: 5px 0px;
+    text-decoration: underline;
+    text-decoration-color: #41b3a3;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+ }
+
+ .bottomMain{
+   display: flex;
+   gap: 15px;
+   flex-direction: column;
+ }
+
+ .bottomMainText{
+   font-size: 12px;
+   padding: 0px 5px ;
+   
+ }
+ .bottomMainBtn{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   padding: 5px 0;
+   color: white;
+   cursor: pointer;
+   background-color: white;
+   color: #41b3a3;
+   border: 1px solid #41b3a3;
+ }
+
+ .bottomMainBtn:hover{
+   background-color:#41b3a3;
+   color: white;
+ }
+

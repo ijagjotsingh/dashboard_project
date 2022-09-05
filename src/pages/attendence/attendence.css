@@ -1,0 +1,204 @@
+.attendence{
+    display: flex;
+}
+
+.attendenceContainer{
+    flex: 6;
+}
+
+.attendenceMain,.leaveMain{
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desTitle{
+    color: #41b3a3;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #41b3a3;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.attendenceDetail{
+    display: flex;
+    gap: 20px;
+}
+.leftMainWrapper{
+    display: flex;
+    gap: 10px;
+}
+.leftOfAtt,.leftMain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftOfAtt{
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 40px;
+    font-size: 16px;
+    flex: 1;
+    justify-content: center;
+}
+.rightOfAtt{
+    flex: 1;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.attTarget{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border: 1px solid #41b3a3;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.attTargetU{
+    text-align: center;
+}
+
+.leftMain{
+    gap: 10px;
+    flex: 2;
+}
+
+.leftMainRow{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.leftTitle{
+    text-decoration: underline;
+    text-decoration-color: #41b3a3;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+    text-align: center;
+}
+
+.leftRow,.rightRow{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.leftRow{
+    background-color: #41b3a3;
+    color: white;
+    flex: 1;
+}
+
+.rightRow{
+    flex: 1;
+}
+
+.leaveContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.leftOfLeave,.rightOfLeave{
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.rightOfLeave{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.leaveTitle,.rolLeft{
+    color: #41b3a3;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.leaveTitle{
+    border: 1px solid #41b3a3;
+    border-radius: 10px;
+}
+
+.rolLeft{
+    margin-bottom: 20px;
+}
+
+.calDesign{
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.leaveContent{
+    padding: 20px 0;
+}
+
+.leaveFormInput{
+    margin-bottom: 20px;
+}
+
+.leaveContent input,textarea{
+    border: 1px solid #41b3a3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px ;
+    padding: 5px;
+}
+
+select{
+    padding: 3px;
+    margin-left: 10px;
+    border: 1px solid #41b3a3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+button{
+    background-color: #41b3a3;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #41b3a4c2;
+}
